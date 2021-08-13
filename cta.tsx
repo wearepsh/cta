@@ -6,7 +6,7 @@ import ReactPlayer from 'react-player'
 const Container = styled.div`
   display: flex;
   width: 100%;
-  justify-content: ${({props}) => props.align};;
+  justify-content: ${({props}) => props.align};
 `
 
 const Link = styled.a`
@@ -20,7 +20,7 @@ const Link = styled.a`
   justify-content: center;
   min-width: 100px;
   width: 100%;
-  border: 2px solid black;
+  border: 1px solid black;
   transition: 0.4s;
 
   :hover {
@@ -60,6 +60,6 @@ CTA.defaultProps = {
   url:"",
   openNewTab: true,
   verticalPadding:'0px',
-  maxWidth:'400px',
+  maxWidth:'none',
   hasHover:false
 }
