@@ -30,7 +30,6 @@ const Link = styled.a`
 `
 
 export const CTA = (props: IProps) => {
-  console.log(props,"props")
   return(
     <Container props={props}>
       <Link href={props.url} target={props.openNewTab ? "_blank" : "_self"} props={props}>
